@@ -1,0 +1,8 @@
+{
+  "m": {
+    "path": "weights/yolov8m.pt",
+    "url": "https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov8m.pt",
+    "sha256": "5d4a90cdc7a21786cc59cd19778e9eafff836df9e2da32524737c7ee6efe4fe5",
+    "bytes": 52136884
+  }
+}

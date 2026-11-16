@@ -1,0 +1,40 @@
+scales:
+  m: yolov8m.yaml
+input_hw: [512, 640]
+data_root: ~/dataset/RGBTDronePerson
+train:
+  epochs: 250
+  box: 7.5
+  cls: 0.5
+  dfl: 1.5
+  patience: 0
+  batch: 16
+  nbs: 64
+  optimizer: SGD
+  lr0: 0.01
+  lrf: 0.01
+  momentum: 0.937
+  weight_decay: 0.0005
+  warmup_epochs: 3.0
+  warmup_momentum: 0.8
+  warmup_bias_lr: 0.1
+  cos_lr: false
+  amp: true
+  seed: 42
+  deterministic: true
+  workers: 4
+  mosaic: 1.0
+  close_mosaic: 0
+  fliplr: 0.5
+  plots: false
+  save: true
+  save_period: -1
+  val: true
+  multi_scale: false
+  imgsz: 640
+  exist_ok: true
+inference:
+  conf: 0.001
+  nms_iou: 0.7
+  max_det: 100
+  tta: false

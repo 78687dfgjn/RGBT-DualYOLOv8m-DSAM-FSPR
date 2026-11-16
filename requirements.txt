@@ -1,0 +1,7 @@
+ultralytics==8.3.150
+torch
+numpy
+opencv-python
+pycocotools
+pyyaml
+pytest

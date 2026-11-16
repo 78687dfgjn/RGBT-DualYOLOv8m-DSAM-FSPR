@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.cache/
+runs/
+smoke_runs/
+weights/
+env/
+*.pt
+.pytest_cache/

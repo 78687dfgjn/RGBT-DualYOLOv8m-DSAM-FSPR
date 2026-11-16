@@ -1,0 +1,8 @@
+path: ~/dataset/RGBTDronePerson
+train: train
+val: val
+nc: 3
+names:
+  0: person
+  1: rider
+  2: crowd
